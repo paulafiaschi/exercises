@@ -1,0 +1,27 @@
+#chart {
+  display: flex;
+  align-items: baseline;
+  height: 32rem;
+}
+
+.bar {
+  border: solid 1px black;
+  height: 100%;
+  width: 1rem;
+  margin: 0 0.1rem;
+}
+
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+
+.scroll {
+  transform: translateX(-1.3rem);
+  transition: all 0.7s ease;
+}
