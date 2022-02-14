@@ -12,12 +12,30 @@
 // let str = "ignacio";
 
 function capitalize(str) {
-  let firtsLetter = str.charAt(0).toUpperCase();
+  let firstLetter = str.charAt(0).toUpperCase();
   let restOfName = str.substring(1).toLowerCase();
-  console.log(`${firtsLetter}${restOfName}`);
-  // console.log(str.charAt(0).toUpperCase());
-  // console.log(str.substring(1));
+  console.log(`${firstLetter}${restOfName}`);
 }
 
-let unNombre = "aiLin";
+let unNombre = "pETer";
 capitalize(unNombre);
+
+// COLOURS HEX AND RGB EXERCISE
+
+//Convert from hex to integer
+let numberAsHex = "ff";
+let numberAsInteger = parseInt(numberAsHex, 16); //Second argumnet is the base
+
+console.log("numberAsInteger", numberAsInteger);
+
+//Convert from integer to hex
+let someNumberAsInteger = 255;
+let someBAse16NumberAsString = someNumberAsInteger.toString(16);
+
+console.log("someBAse16NumberAsString", someBAse16NumberAsString);
+
+//Simple integer convertion
+let simpleNumberAsString = "234";
+let simpleNumber = parseInt(numberAsString);
+
+console.log(simpleNumber);
