@@ -1,12 +1,13 @@
 #chart {
   display: flex;
   align-items: baseline;
-  height: 32rem;
+  height: 32rem
+  ;
 }
 
 .bar {
   border: solid 1px black;
-  height: 100%;
+  height: 15rem;
   width: 1rem;
   margin: 0 0.1rem;
 }
