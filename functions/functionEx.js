@@ -9,7 +9,7 @@
 // }
 
 // presentPet("Robert", "dog", "Simba");
-// let str = "ignacio";
+let str = "ignacio";
 
 function capitalize(str) {
   let firstLetter = str.charAt(0).toUpperCase();
@@ -38,4 +38,4 @@ console.log("someBAse16NumberAsString", someBAse16NumberAsString);
 let simpleNumberAsString = "234";
 let simpleNumber = parseInt(numberAsString);
 
-console.log(simpleNumber);
+// console.log(simpleNumber);
