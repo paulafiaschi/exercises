@@ -15,6 +15,7 @@ function capitalize(str) {
   let firstLetter = str.charAt(0).toUpperCase();
   let restOfName = str.substring(1).toLowerCase();
   console.log(`${firstLetter}${restOfName}`);
+
 }
 
 let unNombre = "pETer";
